@@ -1,0 +1,39 @@
+body,html {
+  height: 100%;
+ }
+
+body {
+  padding-top: 50px;
+
+
+}
+
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(199, 16, 16);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+#myBtn:hover {
+  background-color: rgb(189, 14, 14);
+  color: rgb(198, 186, 186);
+}
+
+.bg-4{
+  background-color: #ce2c2c;
+  color: #5239a4;
+
+}
+
+footer{
+  display: block;
+}
+
